@@ -76,14 +76,14 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/haraldk/TwelveMonkeys/issues</url>
+        <url>https://github.com/iterate-ch/TwelveMonkeys/issues</url>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/haraldk/TwelveMonkeys</connection>
-        <developerConnection>scm:git:https://github.com/haraldk/TwelveMonkeys</developerConnection>
-        <url>https://github.com/haraldk/TwelveMonkeys</url>
-        <tag>HEAD</tag>
+        <connection>scm:git:https://github.com/iterate-ch/TwelveMonkeys</connection>
+        <developerConnection>scm:git:https://github.com/iterate-ch/TwelveMonkeys</developerConnection>
+        <url>https://github.com/iterate-ch/TwelveMonkeys</url>
+        <tag>3.4.2</tag>
     </scm>
 
     <properties>
