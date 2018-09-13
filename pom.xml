@@ -91,6 +91,13 @@
     </properties>
 
     <build>
+        <extensions>
+            <extension>
+                <groupId>org.springframework.build</groupId>
+                <artifactId>aws-maven</artifactId>
+                <version>5.0.0.RELEASE</version>
+            </extension>
+        </extensions>
         <finalName>twelvemonkeys-${project.artifactId}-${project.version}</finalName>
         <plugins>
             <plugin>
@@ -241,4 +248,15 @@
         </plugins>
     </reporting>
 
+    <distributionManagement>
+        <repository>
+            <id>maven.iterate.ch-release</id>
+            <url>s3://repo.maven.iterate.ch/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>maven.iterate.ch-snapshot</id>
+            <url>s3://repo.maven.iterate.ch/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
